@@ -10,7 +10,8 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <meta name="theme-color" content="#08220f">
   <link rel="apple-touch-icon" href="/icon-192.png">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/assets/css/dash.css">
 </head>
 <body>
   <header class="header">
@@ -39,7 +40,7 @@
           <div class="dash-copy">
             <span class="eyebrow">AI + Government Jobs + Global Opportunities</span>
             <h1>Find Your Dream Job<br>with <span class="gradient-text">AI Power</span></h1>
-            <p class="lead">Get the latest government jobs from Pakistan &amp; around the world. Smart matching, daily updates and complete guidance.</p>
+            <p class="lead">Get the latest government jobs from Pakistan & around the world. Smart matching, daily updates and complete guidance.</p>
             <div class="actions">
               <a class="btn primary" href="/jobs/latest.html">Explore Latest Jobs →</a>
               <a class="btn" href="/guides/">Browse Guides</a>
@@ -73,7 +74,7 @@
     <section class="section home-jobs" id="jobs-preview">
       <div class="wrap">
         <div class="section-head">
-          <div><div class="kicker">Latest Government Jobs</div><h2>Fresh jobs from Pakistan &amp; around the world</h2></div>
+          <div><div class="kicker">Latest Government Jobs</div><h2>Fresh jobs from Pakistan & around the world</h2></div>
           <span class="live-pill" id="livePill">Live Updates · Loading…</span>
         </div>
         <div class="home-layout">
@@ -148,7 +149,7 @@
     <div class="wrap footer-grid">
       <div>
         <div class="brand"><span class="brand-logo-wrap"><img class="brand-logo" src="/assets/logo.svg" alt="AIFlowGuide" width="160"></span></div>
-        <p>Your AI-Powered Government Jobs &amp; Career Hub. Official sources only.</p>
+        <p>Your AI-Powered Government Jobs & Career Hub. Official sources only.</p>
       </div>
       <div><h4>Jobs</h4><a href="/jobs/latest.html">Latest Jobs</a><a href="/jobs/pakistan-government-jobs.html">Pakistan</a><a href="/jobs/global-government-jobs.html">Global</a></div>
       <div><h4>Explore</h4><a href="/guides/">Guides</a><a href="/tools/">AI Tools</a><a href="/about.html">About</a><a href="/privacy.html">Privacy</a><a href="/disclaimer.html">Disclaimer</a><a href="/contact.html">Contact</a></div>
@@ -161,7 +162,7 @@
   (function () {
     const state = { jobs: [] };
     const $ = (id) => document.getElementById(id);
-    const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[m]));
+    const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (m) => ({ "&": "&", "<": "<", ">": ">", '"': """, "'": "&#039;" }[m]));
     const fmtDate = (v) => { if (!v) return "See notice"; const d = new Date(v); return isNaN(d) ? esc(v) : d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }); };
     function renderHome() {
       const q = ($("homeQ")?.value || "").trim().toLowerCase();
