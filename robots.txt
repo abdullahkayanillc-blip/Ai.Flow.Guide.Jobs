@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aiflowguide.netlify.app/sitemap.xml

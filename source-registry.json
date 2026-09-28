@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {"id":"njp","name":"National Jobs Portal","country":"Pakistan","url":"https://njp.gov.pk/","method":"review-public-source"},
+    {"id":"fpsc","name":"Federal Public Service Commission","country":"Pakistan","url":"https://fpsc.gov.pk/","method":"review-public-source"},
+    {"id":"usajobs","name":"USAJOBS","country":"United States","url":"https://www.usajobs.gov/","method":"review-public-source"},
+    {"id":"apsjobs","name":"APSJobs","country":"Australia","url":"https://www.apsjobs.gov.au/","method":"review-public-source"},
+    {"id":"eu","name":"EU Careers","country":"European Union","url":"https://eu-careers.europa.eu/en/job-opportunities","method":"review-public-source"}
+  ]
+}

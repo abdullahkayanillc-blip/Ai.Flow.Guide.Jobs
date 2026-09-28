@@ -1,0 +1,29 @@
+{
+  "purpose": "On-page SEO keyword map. This is a planning layer, not a promise of Google rankings.",
+  "primary": [
+    "government jobs 2026",
+    "latest government jobs 2026",
+    "Pakistan government jobs 2026",
+    "global government jobs 2026"
+  ],
+  "secondary": [
+    "FPSC jobs",
+    "National Jobs Portal jobs",
+    "government jobs today",
+    "government job alerts",
+    "government jobs by qualification",
+    "government jobs in Pakistan",
+    "global government careers"
+  ],
+  "pageTargets": {
+    "/": ["government jobs 2026", "latest government jobs 2026", "government job alerts"],
+    "/jobs/latest.html": ["latest government jobs 2026", "government jobs today", "government job alerts"],
+    "/jobs/pakistan-government-jobs.html": ["Pakistan government jobs 2026", "FPSC jobs", "National Jobs Portal jobs"],
+    "/jobs/global-government-jobs.html": ["global government jobs 2026", "global government careers"]
+  },
+  "tracking": {
+    "status": "not connected",
+    "recommended": "Google Search Console",
+    "note": "Search Console is required for live impressions, clicks, queries, indexing and ranking monitoring."
+  }
+}

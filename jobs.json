@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "updatedAt": null,
+    "status": "automation-ready",
+    "sourcePolicy": "Official-source records only",
+    "coverageNote": "Live jobs are published by the daily n8n workflow after validation."
+  },
+  "jobs": []
+}
