@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" role="img" aria-labelledby="title desc">
+  <title id="title">AIFlowGuide logo</title>
+  <desc id="desc">A dimensional A and AIFlowGuide wordmark</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9BE9A4"/><stop offset="0.52" stop-color="#D7E78E"/><stop offset="1" stop-color="#E7CA63"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#2BD67B"/><stop offset="1" stop-color="#FFF0A7"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#9BE9A4" flood-opacity="0.22"/></filter>
+  </defs>
+  <g transform="translate(4,4)" filter="url(#shadow)">
+    <path d="M25 3 4 47h10l5-11h19l5 11h10L32 3Zm-2 24 5-12 5 12Z" fill="url(#g1)" stroke="#F9FFE8" stroke-width="1.2"/>
+    <path d="M21 12 11 47h7l5-18 6 12 7-8-10-25Z" fill="url(#g2)" opacity=".88"/>
+    <path d="M18 37 29 19l13 15-6 5-7-8-5 12Z" fill="#0A2A14" opacity=".78"/>
+  </g>
+  <text x="67" y="25" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="900" fill="#F7FBF5">AIFlow<tspan fill="#9BE9A4">Guide</tspan></text>
+  <text x="68" y="42" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="8.7" font-weight="700" fill="#B6C7B8" letter-spacing="1.25">GOVERNMENT JOBS • CAREER INTELLIGENCE</text>
+</svg>
